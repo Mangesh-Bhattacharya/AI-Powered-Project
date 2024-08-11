@@ -1,5 +1,10 @@
 # AI-Powered Vulnerability Scanning and Mitigation on Amazon Linux
 ### Project Description
-This project demonstrates an AI-powered approach to identifying and mitigating vulnerabilities in Amazon Linux environments. The project combines machine learning techniques with traditional security practices to scan, identify, and remediate potential vulnerabilities. The solution is designed to be scalable, efficient, and easily integrable into existing CI/CD pipelines.
+This project showcases an AI-powered method for recognizing and addressing vulnerabilities in Amazon Linux environments. It utilizes machine learning techniques alongside traditional security practices to scan, identify, and fix potential vulnerabilities. The solution is designed to be scalable, efficient, and easily integrated into existing CI/CD pipelines.
 
 #### Key Features
+1. Automated Vulnerability Scanning:
+   - Leverage AI to prioritize vulnerabilities based on exploitability and potential impact.
+   - Use tools like OpenSCAP, Lynis, ClamAV and Trivy for baseline scans.
+   - Integrate AI models (e.g., TensorFlow, PyTorch) to identify unusual patterns and unknown vulnerabilities.
+2. 
