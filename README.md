@@ -10,16 +10,16 @@ The `DAIR BoosterPack` is an advanced cybersecurity project developed by `Ameya 
 2. Real-Time Threat Detection:
    - Implement machine learning algorithms to analyze system logs and network traffic.
    - Use anomaly detection to flag potential zero-day vulnerabilities.
-4. Patch Management:
+3. Patch Management:
    - Automatically apply patches based on the severity of the vulnerability.
    - Use AWS Systems Manager Patch Manager for automated patching.
-6. Mitigation Strategies:
+4. Mitigation Strategies:
    - Provide automated remediation for common vulnerabilities (e.g., misconfigurations, outdated software).
    - Integrate with AWS Lambda to trigger custom mitigation scripts.
-8. Reporting and Alerting:
+5. Reporting and Alerting:
    - Generate detailed vulnerability reports and trend analysis.
    - Set up alerting via AWS SNS (Simple Notification Service) for real-time notifications.
-10. CI/CD Integration:
+6. CI/CD Integration:
    - Integrate with Jenkins or GitHub Actions to automate the scanning process as part of the deployment pipeline.
    - Ensure that vulnerabilities are identified and mitigated before code reaches production.
 
