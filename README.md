@@ -1,6 +1,6 @@
 # DAIR BoosterPack: AI-Powered Vulnerability Scanning and Mitigation on Amazon Linux
 ### Project Description
-The `DAIR BoosterPack` is an advanced cybersecurity project developed by `Ameya Cloud Solutions` in collaboration with `CANARIE`. It leverages AI-powered vulnerability scanning and mitigation techniques to secure AWS Amazon-Linux-based environments. This project integrates Docker, Ansible, and Trivy tools to automate vulnerability detection and mitigation, with OpenSearch tools used for data ingestion, searching, visualization, and analysis.
+The `DAIR BoosterPack` is an advanced cybersecurity project developed by `CANARIE`. It leverages AI-powered vulnerability scanning and mitigation techniques to secure AWS Amazon-Linux-based environments. This project integrates Docker, Ansible, and Trivy tools to automate vulnerability detection and mitigation with OpenSearch tools for data ingestion, searching, visualization, and analysis.
 
 #### Key Features
 1. Automated Vulnerability Scanning:
@@ -11,7 +11,7 @@ The `DAIR BoosterPack` is an advanced cybersecurity project developed by `Ameya 
    - Implement machine learning algorithms to analyze system logs and network traffic.
    - Use anomaly detection to flag potential zero-day vulnerabilities.
 3. Patch Management:
-   - Automatically apply patches based on the severity of the vulnerability.
+   - Patches are automatically applied based on the severity of the vulnerability.
    - Use AWS Systems Manager Patch Manager for automated patching.
 4. Mitigation Strategies:
    - Provide automated remediation for common vulnerabilities (e.g., misconfigurations, outdated software).
@@ -21,7 +21,7 @@ The `DAIR BoosterPack` is an advanced cybersecurity project developed by `Ameya 
    - Set up alerting via AWS SNS (Simple Notification Service) for real-time notifications.
 6. CI/CD Integration:
    - Integrate with Jenkins or GitHub Actions to automate the scanning process as part of the deployment pipeline.
-   - Ensure that vulnerabilities are identified and mitigated before code reaches production.
+   - Ensure that vulnerabilities are identified and mitigated before the code reaches production.
 
 ### Project Structure
 ```
@@ -30,7 +30,7 @@ ai-vulnerability-scanner/
 ├── config/
 │   ├── openscap.xml          # OpenSCAP configuration files
 │   ├── lynis.conf            # Lynis configuration files
-│   └── clamav.conf           # ClamAV configuration files
+│   └── ClamAV.conf           # ClamAV configuration files
 │
 ├── models/
 │   ├── anomaly_detection.py  # Anomaly detection ML model
