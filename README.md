@@ -1,6 +1,6 @@
 # DAIR BoosterPack: AI-Powered Vulnerability Scanning and Mitigation on Amazon Linux
 ### Project Description
-The `DAIR BoosterPack` is an advanced cybersecurity project developed by `Ameya Cloud Solutions` in collaboration with `CANARIE`. It leverages AI-powered vulnerability scanning and mitigation techniques to secure AWS Amazon-Linux-based environments. This project integrates Docker, Ansible, and Trivy tools to automate vulnerability detection and mitigation, with OpenSearch tools used for data ingestion, searching, visualization, and analysis. Designed to be a part of your cybersecurity portfolio, this project demonstrates a comprehensive approach to securing cloud-based infrastructures.
+The `DAIR BoosterPack` is an advanced cybersecurity project developed by `Ameya Cloud Solutions` in collaboration with `CANARIE`. It leverages AI-powered vulnerability scanning and mitigation techniques to secure AWS Amazon-Linux-based environments. This project integrates Docker, Ansible, and Trivy tools to automate vulnerability detection and mitigation, with OpenSearch tools used for data ingestion, searching, visualization, and analysis.
 
 #### Key Features
 1. Automated Vulnerability Scanning:
@@ -56,12 +56,20 @@ ai-vulnerability-scanner/
 
 ### Getting Started
 1. Prerequisites:
-   - AWS account with access to Amazon Linux instances.
+   - AWS Account: Necessary for setting up the Amazon-Linux-based environment.
    - Python 3.x, TensorFlow/PyTorch, Boto3.
-   - Tools: OpenSCAP, Lynis, ClamAV, Tivy
+   - Tools: OpenSCAP, Lynis, ClamAV
+   - Docker: To run containerized services for scanning and mitigation.
+   - Ansible: Required for automation of deployment and configuration tasks.
+   - OpenSearch: For ingesting, searching, and visualizing the vulnerability data.
 2. Installation:
+   - Set up the AWS Amazon-Linux Environment: Configure an AWS EC2 instance with Amazon-Linux.
    - Clone the repository: `git clone https://github.com/yourusername/ai-vulnerability-scanner.git`
    - Install dependencies: `pip install -r requirements.txt`
+   - Install Docker: Follow Docker's installation guide for your instance.
+   - Install Ansible: Use the package manager to install Ansible on your instance.
+   - Deploy Trivy: Install Trivy within Docker to begin scanning containers for vulnerabilities.
+   - Configure OpenSearch: Set up OpenSearch for data ingestion and visualization.
 3. Usage:
    - Run the initial vulnerability scan:
      `bash scripts/scan.sh`
@@ -76,3 +84,6 @@ ai-vulnerability-scanner/
 - Docker Integration: Containerize the solution for easier deployment across environments.
 - Support for Other Linux Distributions: Extend support to Ubuntu, CentOS, and others.
 - Enhanced Reporting: Develop a web interface for real-time monitoring and reporting.
+
+## Contribution by CANARIE
+CANARIE played a pivotal role in supporting the development and deployment of the DAIR BoosterPack. Through their resources and expertise, CANARIE facilitated the integration of advanced AI-driven techniques, ensuring that the project aligns with industry standards for cloud security. Their contributions have been instrumental in making this project a valuable tool for cybersecurity professionals looking to enhance their cloud security practices.
